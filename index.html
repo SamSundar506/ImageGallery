@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap.css">
+<script src="jquery.js"></script>
+<script src="popper.js"></script>
+<script src="bootstrap.js"></script>
+<title>Image Gallery</title>
+<link rel="shortcut icon" type="image/png" href="pngtree-c4d-cool-black-red-gold-three-dimensional-letter-s-decoration-png-image_4581725-removebg-preview.png">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(236423-depth_of_field-nature-animals-landscape-dog-Siberian_Husky-water-trees-forest-mist-reflection-clouds-alone-blue-lake.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+
+  color: black;
+}
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.container{
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+  font-size: 70px;
+  font-family: "Comic Sans MS";
+}
+
+.container-fluid{
+  margin-top: 50px;
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Image Gallery</h1>
+  </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="1926554.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="black-and-white-wallpaper-of-a-shark-hd-animal-background-photo.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="iyRJG1.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="1209562.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="EHk5s1l.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="GJbCfR.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="thumb-1920-246147.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="lion-black-and-white-1366x768.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="wolf-mammal-canine-dog-wood-portrait-nature-wildlife-outdoors-one-grey-fur-animal-tree.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="White-Tiger-Portrait.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="a21a86b3d4983c40b03c77d8f63f7677.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-12" >
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="iphone6retinawallpaper_com_iphone_5_c_retina_wallpaper_hd_animals_8_640.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="e66535a63a64e1626f593c9fa383ceb0.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+
+          </div>
+          <div class="flip-card-back">
+            <img src="214665.jpg" alt="Avatar" style="width:100%;height:300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+</body>
+</html>
